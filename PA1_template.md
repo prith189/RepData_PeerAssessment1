@@ -16,6 +16,8 @@
 ##     intersect, setdiff, setequal, union
 ```
 
+Reading the data using the read.csv file
+
 ```r
 data <- read.csv("./activity.csv")
 ```

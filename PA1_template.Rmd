@@ -8,9 +8,11 @@ output:
 
 ## Loading and preprocessing the data
 ```{r echo=FALSE}
-suppressWarnings(library(dplyr))
+library(dplyr)
 library(lattice)
 ```
+
+Reading the data using the read.csv file
 ```{r}
 data <- read.csv("./activity.csv")
 ```
